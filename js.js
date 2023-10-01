@@ -1,71 +1,58 @@
-// let myArray =[4 , 5 , 7 , 8 , 9 , 1],
-// console.log(myArray);
+// let x = 0;
+// while (x<10){
+//     console.log(x += 1);
+// }
+// let x = 0
+// do {
+//     console.log(x++);
+   
+// } while ( x<10);
 
-// for(let i =0; i < myArray.length;i++) {
-//     console.log("Gia tri cu phan tu thu" i ,"la" , myArray[i])
+// var const let
+
+// let i =6 ;
+
+// while(i<5){
+//     console.log(i)
+//     i++
 // }
 
-// myArray[2]=6;
-// console.log(myArray)
+// let a = 5
 
-// myArray.splice(2,1,7,8);
-// console.log(myArray);
+// do {
+//     console.log(a);
+// } while (a >6);
 
-// console.log(myArray,length); //độ dài mảng
-
-// myArray.push(7)
-// console.log(myArray);
-
-// myArray.pop()
-// console.log(myArray);
-
-// myArray.unshift(0)
-// console.log(myArray); // thêm phần tử đầu tiên
-
-// myArray.shift()
-// console.log(myArray); // xóa phần tử đầu tiên
-
-
-// let dog ={
-//     name:Siba
-//     age:3
+// let n=0
+// for(n=0;n<5;n++){
+//     console.log(n)
 // }
 
 
-// dog.name = 'Meublocoa'
-// console.log(dog);
-
-// dog.action='Walk'
-// console.log(dog);
-
-// delete(dog.action)
-// console.log(dog);
+// let MyNumber = [0,1,2];
+// let MyString = ['Ngoc','Lam','tai']
 
 
-// let cat= new Object({
-//     name:'Tom',
-//     age:3,
-//     enemy:{
-//         name :'Alaska',
-//         age:5
-//     }
+// console.log(MyString);
+// console.log(MyNumber);
+
+// for(i=0;i<3;i++){
+//     console.log(i +":"+MyString[i]);
 // }
-// );
 
-// let dog1 =["Alaska",4]
-// let dog2 =["Corgi",5]
+// for(i=0;i<3;i++)
+//     alert(i +":"+MyString[i]);
 
-// let dogs = [dog1,dog2]
+// let i=0
+// while (i<3) {
+//     console.log(i + ":" + MyString);
+//     i++;
+// }
 
-// console.log(dogs);
+// let i=0
+// do {
+//     console.log(i + ":" + MyString[i]);
+//     i++;
+// } while (i<3);
 
-// console.log(dogs[1][0] );
 
-let gioTraiCay = [
-    ['xoai',2],
-    ['dua hau',3],
-]
-
-for(let i =0 ;i<gioTraiCay.length;i++){
-    console.log("Gio trai cay:" + gioTraiCay[i][0]+ gioTraiCay[i][1]);
-}
